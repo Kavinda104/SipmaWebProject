@@ -1,0 +1,457 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:arial;
+  padding: 5px;
+  background: black;
+}
+
+/* Header */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #0000f0;
+}
+
+.header h1 {
+  font-size: 40px;
+  color:white;
+}
+.header h2 {
+  font-size: 25px;
+  color:white;
+}
+
+
+/* Style the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  overflow: hidden;
+  font-family:arial;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  }
+ 
+  
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 25s slider infinite;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+	}
+	.slid{
+		width: 1490px;
+		margin-left:0px;
+
+	}
+	@keyframes slider{
+		0%{
+			left: 0;
+		}
+		20%{
+			left: 0;
+		}
+		25%{
+			left: -100%;
+		}
+		45%{
+			left: -100%;
+		}
+		50%{
+			left: -200%;
+		}
+		70%{
+			left: -200%;
+		}
+		75%{
+			left: -300%;
+		}
+		95%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+
+	}
+
+  
+  
+  .column {
+  float: right;
+  padding: 10px;
+}
+
+/* Left column */
+.column.side {
+  width: 35%;
+}
+/* Middle column */
+.column.middle {
+  width: 25%;
+}
+/*right column */
+.column.side {
+  width: 25%;}
+  
+ 
+  
+  
+  
+  
+
+
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding-left: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 10px;
+}
+
+/* articles */
+.card {
+  background-color: lightskyblue;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer
+		{
+		padding:95px;
+		text-align:right;
+		font-family:georgea;
+		font-varient:small-caps;
+		background:#1e90ff;
+		padding-left:5%;
+  padding-top:3%;
+  padding-right:5%;
+		}
+		
+
+
+
+
+.footer h3 {
+  margin-top:0;
+  margin-bottom:13px;
+  font-weight:bold;
+  font-size:19px;
+}
+
+.footer ol {
+  padding:0;
+  list-style:none;
+ 
+  font-size:15px;
+}
+
+.footer .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.6;
+  font-size:16px;
+  margin-bottom:0;
+}
+
+
+
+</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+
+</head>
+<body>
+
+<div class="header">
+	
+	<img src="Logos.jpg" alt="Sipmalogo" width="335" height="198" style="float:left"> 
+  <h1>SIPMA HIGHER EDUCATIONAL INSTITUTE, GALGAMUWA</h1>
+  <h2>සරුදම් සපිරි සිප් සෙවණ...</h2>
+</div>
+
+
+		<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="2024AL.html">2024 A/L</a></li>
+					<li class="dropdown">
+                      <a href="javascript:void(0)" class="dropbtn">CLASSES </a>
+                        <div class="dropdown-content">
+							
+                            <a href="teachers.html" class="dropdown-item">TEACHERS</a>
+                            <a href="student.html" class="dropdown-item">STUDENTS</a>
+                            <a href="timetables.html" class="dropdown-item">TIMETABLES</a>
+                            <a href="aboutus.html" class="dropdown-item">ABOUT US</a>
+                            <a href="gallery.html" class="dropdown-item">GALLERY</a>
+							
+                        </div>
+					</li>
+				<li><a href="contact.html"style="float:right">CONTACT</a></li>
+			
+		</ul>		
+    
+	<img src="pictures/head.jpg" style="width:100%">
+	<div class="slid">
+		<div id="slider">
+			<figure>
+				<img src="pictures/students11.jpg"alt="desc1" width="100%" height="100%" >
+				<img src="pictures/students22.jpg"alt="desc1" width="100%" height="100%">
+				<img src="pictures/students33.jpg"alt="desc1" width="100%" height="100%">
+				<img src="pictures/students11.jpg"alt="desc1" width="100%" height="100%">
+			</figure>
+
+		</div>
+
+	</div>
+	
+    <img src="pictures/subjects0.jpg" style="width:100%">
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+
+		
+      <h2><b>සිප්මා උසස් අධ්‍යාපන ආයතනය - ගල්ගමුව.</b></h2>
+      <h3>ආයතනය පිලිබඳ කෙටි හැඳින්වීමක්...</h3>
+	  <p><b>සිප්මා උසස් අධ්‍යාපන ආයතනය ගල්ගමුව ප්‍රදේශයේ සිසුන් අතර ජනප්‍රියම උසස් අධ්‍යාපන ආයතනයක් වන අතර ප්‍රදේශයේ වැඩිම සිසුන් ප්‍රමාණයක් විශ්වවිද්‍යාල වරම් හිමිකරගනිමින් ඉමහත් කීර්තියක් අත්කරගෙන ඇත.දිවයිනේ විශිෂ්ටතම සහ
+	  අත්දැකීම් බහුල ඇදුරු මඩුල්ලක් විසින් සියලු දේශන පවත්වනු ලබන නිසා සහ හොඳම අධ්‍යාපන ක්‍රමවේදයන් අනුගමනය කිරීම නිසා සෑම වසරකම වැඩිම A සාමාර්ථ ප්‍රමාණයක් බිහිකරනු ලබයි.එමෙන්ම සෑම සිසුවෙක් 
+	  කෙරෙහිම විශේෂ අවධානයක් යොමු කරමින් සියලුම සිසුන්ගේ අධ්‍යාපන කටයුතු ඉහල නැංවීමට කටයුතු කරයි.සිප්මා උසස් අධ්‍යාපන ආයතනය දිවයිනේ ජනප්‍රියම ආයතනයක් බවට පත්වූයේ අපගේ ගුරුවරුන් දශක 
+	  ගනණාවක් තිස්සේ උසස්ම ප්‍රතිඵල ලබා දෙමින් සිසුන්ගේද දෙමව්පියන්ගේද සිත් දිනාගත් බැවිනි.<b/></p>
+	  
+	  <h3><b>සිප්මා උසස් අධ්‍යාපන ආයතනය දිවයිනේ කීර්තිමත් ආයතනයක් වීමට හේතු... </b></h3>
+	  
+	  
+		<h4>1. වසර ගනනාවක් දිස්ත්‍රික් ප්‍රථමයන් සහ වැඩිම A සාමාර්ථ බිහිකල ආචාර්ය මණ්ඩලය, </h4>
+		<h4>2. දිවයිනේ ජනප්‍රියම ගුරුවරුන් විසින් දේශන පැවැත්වීම,</h4>
+		<h4>3. අඩුම පංති ගාස්තු අය කිරීම සහ සියලුම අතිරේක පංති නොමිලේ පැවැත්වීම,</h4>
+		<h4>4. සිසුන්ගේ විනය කෙරෙහි දැඩි අවධානයක් යොමු කිරීම, </h4>
+		<h4>5. වසරින් වසර යාවත්කාලීන වන නව දැනුම සහිත ආකර්ෂණීය නිබන්ධන ලබාදීම, </h4>
+		<h4>6. උපරිම ආරක්ෂාව සහිත ස්ථානයක ආයතනය පිහිටා තිබීම, </h4>
+		<h4>7. දිළිඳු දරුවන් සහ සාමාන්‍ය පෙළ විභාගයේදී දක්ෂතා දැක්වූ සිසුන්ට ලබාදෙන නොමිලේ ශිෂ්‍යත්ව ක්‍රමය.</h4>
+	  
+	  <p><b>පිරිසිදු පානීය ජලය වැනි සියලුම යටිතල පහසුකම් සහිතව සිසුන්ට තම අධ්‍යාපන කටයුතු සාර්ථකව කරගැනීමට ඉඩකඩ සපයා ඇති අතර සියලුම කාර්යයන් මනා පරිපාලනයකින් හා කළමණාකරණයෙන් යුතුව 
+		සිදුවේ.අධ්‍යාපනයට අමතරව සමාජයේ යහපත් පුරවැසියෙකු ලෙස ජීවත් වීමට ගුණවත් සහ නැණවත් සිසු පරපුරක් සමාජයට දායාද කිරීම අපගේ පරම යුතුකමයි...</b></p>
+	  
+	  
+	  <video controls height="100%" width="100%" loop muted autoplay="autoplay">
+		<source src="sipmavid.mp4" type="video/mp4">
+	</video>
+	
+	<video controls height="100%" width="100%" loop muted autoplay="autoplay">
+		<source src="sipmavid2.mp4" type="video/mp4">
+	</video>
+	  <br>
+      
+     
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>ආයතනයේ සේවය කරන ගුරු මණ්ඩලය...</h2>
+	  <h3>Advanced Level</h3>
+      <img src="pictures/sipma 2022.jpg" alt="desc1" width="100%" height="60%">
+    </div>
+    <div class="card">
+      <h3>Results</h3>
+	  <img src="pictures/results.jpg" alt="desc1" width="100%" height="100%">
+     
+      
+    </div>
+    <div class="card">
+      <h3>Contact Us on</h3>
+      <p>Facebook  - Sipma Galgamuwa</p>
+	  <p>TelePhone - 077 9653909</p>
+	  <p>Address   - Samagi Rd, Galgamuwa</p>
+    </div>
+	<div class="card">
+      <h3>Road Map</h3>
+	  <p>Place - Sipma Galgamuwa</p>
+      <iframe width="100%" height="auto" src="https://goo.gl/maps/4PSVzRPYs6pbzqD36">
+		</iframe>
+    </div>
+  </div>
+</div>
+<br>
+<div class="footer">   
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="column side">
+                        <h3>About Us</h3>
+                        <ol>
+                            <li><a href="index.html">Institute</a></li>
+                            <li><a href="teachers.html">Team</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+						</ol>
+                        
+                    </div>
+                    <div class="column middle">
+                        <h3>Quick Links</h3>
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="teachers.html">Teachers</a></li>
+                            <li><a href="2024al.html">2024 A/L</a></li>
+							<li><a href="timetables.html">Timetables</a></li>
+                        </ol>
+                    </div>
+                    <div class="column side">
+                        <h3>SIPMA Galgamuwa</h3>
+						<br>
+                        <p>T.P.     - 037 5485221</p>
+						<p>T.P.     - 077 9653909</p>
+						<p>Email    - pemarathnavikadenigama@gmail.com</p>
+						<p>Facebook - Sipma Galgamuwa</p>
+						<p>Address  - Samagi Rd, Galgamuwa</p>
+                    </div>
+					
+                    <div class="col item social"><a href="https://www.facebook.com/profile.php?id=100011451340680/"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+				<li><a href="https://www.pemarathnavikadenigama@gmail.com/">E-mail to Sipma</a></li>
+                <p class="copyright">Sipma Galgamuwa © 2023</p>
+				
+			
+				
+            </div> 
+			</footer><br>
+		<div class="py-4 px-5 text-center text-md-start">
+				<img src="Logos.jpg" alt="Sipmalogo" width="300" height="170" style="float:left">
+                <br><br>
+				<p class="mb-0" style="font-size:18">© <a class="text-primary" href="#">www.sipmagalgamuwa.lk</a>. All Rights Reserved.</p>
+            </div>
+            <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
+                <p class="mb-0"style="font-size:18">Designed by <a class="text-dark">Sipma IT Team</a></p>
+        </div>
+
+</div>
+
+</body>
+</html>
